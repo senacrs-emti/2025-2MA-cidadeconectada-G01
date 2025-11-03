@@ -6,8 +6,11 @@
 }
 .header{
     width: 100%;
-    height: 550px;
+    height: 600px;
     background-color: aqua;
+    background-image: url(aniver\ poa1\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
 }
 .menu{
     background-color: #152940;
@@ -62,13 +65,114 @@ a {
     color: white;
   }
   .saibamais{
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     margin-left: 37px;
-    margin-top: 23px;
+    margin-top: 15px;
+    font-family: sans-serif;
   }
   .instale{
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     margin-left: 37px;
-  }
+    font-family: sans-serif;
+  } 
+.container {
+    background: #EEE5DD;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+ 
+h1 {
+    color: #152940;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 60px; 
+}
+ 
+.valores {
+    display: flex;
+    justify-content: center;
+    gap: 60px; 
+}
+ 
+.quadrado1 {
+    width: 230px;
+    height: 230px;
+    background: #152940;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quadrado2 {
+  width: 230px;
+  height: 230px;
+  background: #152940;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quadrado3 {
+  width: 230px;
+  height: 230px;
+  background: #152940;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.titulo1 {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 69px;
+    margin-top: -100px;
+}
+.titulo2 {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 69px;
+  margin-top: -100px;
+}
+.titulo3 {
+  color: #fff;
+  font-size: 25px;
+ margin-left: 69px;
+  margin-top: -100px;
+}
+.texto{
+  color: white;
+  font-size: 18px;
+  margin-top: 44px;
+  margin-left: -126px;
+}
+.texto2{
+  color: white;
+  font-size: 18px;
+  margin-top: 51px;
+  margin-left: -121px
+}
+.texto3{
+  color: white;
+  font-size: 18px;
+  margin-top: 38px;
+  margin-left: -130px;
+}
+.container2{
+  background-color: #148253;
+  width: 100%;
+    height: 320px;
+    display: flex;
+    
+}
+.container3{
+  background-color:#EEE5DD;
+  width: 100%;
+    height: 250px;
+    display: flex;
+}
