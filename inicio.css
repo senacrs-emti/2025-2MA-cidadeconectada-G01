@@ -7,7 +7,7 @@
 .header{
     width: 100%;
     height: 620px;
-    background-color: aqua;
+    background-color: white;
     background-image: url(aniver\ poa1\ \(1\).jpg);
     background-size: cover;
     background-position: center;
@@ -16,6 +16,61 @@
     background-color: #152940;
     width: 100%;
     height: 100px;
+}
+.menu nav.nav ul li a{
+  padding: 10px
+}
+.menu nav.nav ul li a:hover{
+  width: 105px;
+  height: 25px;
+  background-color: #A7D533;
+  border-radius: 20px;
+  color: white;
+}
+.circulos{
+  width: 125px;
+  height: 500px;
+  float: right;
+  margin-right: 70px;
+}
+.circulo1{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border:1px solid white;
+  background-color: rgba(255, 255, 255, 0.105);
+  float: right;
+  margin-top: 50px;
+}
+.reciclar{
+  width: 125px;
+  height: 125px;
+}
+.circulo2{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border:1px solid white;
+  background-color: rgba(255, 255, 255, 0.105);
+  float: right;
+  margin-top: -15px;
+}
+.lixo{
+  width: 125px;
+  height: 125px;
+}
+.circulo3{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border:1px solid white;
+  background-color: rgba(255, 255, 255, 0.105);
+  float: right;
+  margin-top: -15px;
+}
+.caminhao{
+  width: 125px;
+  height: 125px;
 }
 a {
     font-family: sans-serif;
@@ -63,6 +118,7 @@ a {
     font-family: sans-serif;
     font-size: 17px;
     color: white;
+    margin-top: -49px;
   }
   .saibamais{
     font-size: 18px;
@@ -74,7 +130,8 @@ a {
   .instale{
     font-size: 18px;
     color: white;
-    margin-left: 37px;
+    margin-left: 157px;
+    margin-top: -10px;
     font-family: sans-serif;
   } 
 .container {
@@ -176,12 +233,4 @@ h1 {
   width: 100%;
   height: 250px;
   display: flex;
-}
-.circulo1{
-  width: 110px;
-  height: 90px;
-  border-radius: 50%;
-  background-color: #148253;
-  margin-top: -19%;
-  
 }

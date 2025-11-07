@@ -48,7 +48,16 @@ a {
     font-size: 18px;
     color: #fff;
   }
-
+  .menu nav.nav ul li a{
+    padding: 10px
+  }
+  .menu nav.nav ul li a:hover{
+    width: 105px;
+    height: 25px;
+    background-color: #A7D533;
+    border-radius: 20px;
+    color: white;
+  }
 
 .main {
   position: relative;
@@ -107,15 +116,19 @@ input {
 }
 
 button {
-  width: 100%;
+  width: 50%;
   padding: 12px;
   border: none;
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #9dfc3b;
   color: #0b1d35;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 button:hover {
