@@ -27,6 +27,43 @@
   border-radius: 20px;
   color: white;
 }
+.box1{
+  width: 350px;
+  height: 175px;
+  float: left;
+  margin-top: 220px;
+  margin-left: 70px;
+  display: block;
+}
+.titulo{
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.textinho{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.botao{
+  background: none;
+  color: white;
+  border: none;
+  margin-top: 50px;
+  font-weight: 700;
+  padding: 10px 20px;
+}
+header .box1 .botao:hover{
+  width: 150px;
+  height: 40px;
+  background-color: #A7D533;
+  
+  border-radius: 20px;
+  cursor: pointer;
+}
 .circulos{
   width: 125px;
   height: 500px;
@@ -40,7 +77,7 @@
   border:1px solid white;
   background-color: rgba(255, 255, 255, 0.105);
   float: right;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .reciclar{
   width: 125px;
@@ -98,28 +135,11 @@ a {
     margin-top: 34px;
   }
    
-  .nav-list a {
+.nav-list a {
     font-size: 18px;
     color: #fff;
-  }
-  .frase{
-    height: 100px;
-    width: 305px;
-    color:white;
-    font-size: 35px;
-    margin-left: 37px;
-    margin-top: 200px;
-    font-family: sans-serif;
-  }
-  .textinho{
-    height: 50px;
-    width: 360px;
-    margin-left: 37px;
-    font-family: sans-serif;
-    font-size: 17px;
-    color: white;
-    margin-top: -49px;
-  }
+}
+
   .saibamais{
     font-size: 18px;
     color: white;
