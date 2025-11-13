@@ -1,17 +1,14 @@
+<?php
+include_once './conexao.php';
+?>
 
 
 
-
-
-
-
-<!---USAR O ARQUIVO CADASTRO.PHP A PARTIR DE AGORA-->
-
-
-
-
-
-
+<!--PARA FAZER-->
+<?php
+// ADICIONAR VARIAVIES E PEGAR DADOS DO FORMULÁRIO PARA MANIPULAÇÃO DEPOIS
+// 
+?>
 
 
 
