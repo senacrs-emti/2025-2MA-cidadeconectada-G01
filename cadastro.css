@@ -62,7 +62,7 @@ a {
 .main {
   position: relative;
   height: 100vh;
-  background-image: url("redencao.jpg");
+  background-image: url(./img/paisagem/redencao.jpg);
   background-size: cover;
   background-position: center;
   display: flex;

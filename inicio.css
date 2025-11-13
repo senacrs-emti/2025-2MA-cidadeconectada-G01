@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 .header{
     width: 100%;
     height: 620px;
     background-color: white;
-    background-image: url(aniver\ poa1\ \(1\).jpg);
+    background-image: url(./img/paisagem/redencao.jpg);
     background-size: cover;
     background-position: center;
 }
