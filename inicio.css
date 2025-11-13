@@ -154,92 +154,57 @@ a {
     margin-top: -10px;
     font-family: sans-serif;
   } 
-.container {
+.container1 {
     background: #EEE5DD;
     width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column;
 }
- 
-h1 {
-    color: #152940;
-    font-size: 48px;
-    text-align: center;
-    padding-top: 40px;
-    margin-bottom: 100px; 
-}
- 
-.valores {
-    display: flex;
-    justify-content: center;
-    gap: 60px; 
-    border: 1px solid black;
-}
- 
-.quadrado1 {
-    width: 230px;
-    height: 230px;
-    background: #152940;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.quadrado2 {
-  width: 230px;
-  height: 230px;
-  background: #152940;
-  border-radius: 20px;
+.caixona{
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+.valores{
+  height: 50px;
+  width: 425px;
+  border: 1px solid black;
+  display: block;
+  align-items: center;
+  margin-top: 25px;
+}
+.nosso-valores{
+  color: #152940;
+  font-size: 45px;
+  text-align: center;
+}
+.caixona2{
+  border: 1px solid black;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
-.quadrado3 {
-  width: 230px;
-  height: 230px;
-  background: #152940;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.caixa1{
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: yellowgreen;
+  display: block;
 }
- 
-.titulo1 {
-  color: #fff;
-  font-size: 25px;
-  margin-left: 69px;
-  margin-top: -100px;
-}
-.titulo2 {
-  color: #fff;
-  font-size: 25px;
-  margin-left: 69px;
-  margin-top: -100px;
-}
-.titulo3 {
-  color: #fff;
-  font-size: 25px;
-  margin-left: 69px;
-  margin-top: -100px;
-}
-.texto{
-  color: white;
-  font-size: 18px;
-  margin-top: 44px;
-  margin-left: -126px;
-}
-.texto2{
-  color: white;
-  font-size: 18px;
-  margin-top: 51px;
-  margin-left: -121px
-}
-.texto3{
-  color: white;
-  font-size: 18px;
-  margin-top: 38px;
-  margin-left: -130px;
+.caixa2{
+  width: 200px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: orange;
+  display: block;
 }
 .container2{
   background-color: #148253;
@@ -253,4 +218,10 @@ h1 {
   width: 100%;
   height: 250px;
   display: flex;
+}
+.bola1{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: white;
 }
