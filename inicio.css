@@ -2,8 +2,116 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: "poppins", sans-serif;
 }
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 .header{
     width: 100%;
     height: 620px;
@@ -110,7 +218,6 @@ header .box1 .botao:hover{
   height: 125px;
 }
 a {
-    font-family: sans-serif;
     text-decoration: none;
   }
    
@@ -145,14 +252,12 @@ a {
     color: white;
     margin-left: 37px;
     margin-top: 15px;
-    font-family: sans-serif;
   }
   .instale{
     font-size: 18px;
     color: white;
     margin-left: 157px;
     margin-top: -10px;
-    font-family: sans-serif;
   } 
 .container1 {
     background: #EEE5DD;
@@ -162,7 +267,6 @@ a {
     flex-direction: column;
 }
 .caixona{
-  border: 1px solid black;
   width: 100%;
   height: 100px;
   display: flex;
@@ -172,7 +276,6 @@ a {
 .valores{
   height: 50px;
   width: 425px;
-  border: 1px solid black;
   display: block;
   align-items: center;
   margin-top: 25px;
@@ -183,28 +286,112 @@ a {
   text-align: center;
 }
 .caixona2{
-  border: 1px solid black;
   width: 100%;
   height: 400px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.caixa-esquerda{
+  float: left;
+  height:400px;
+  width: 30%;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 .caixa1{
-  width: 200px;
+  width: 250px;
   height: 250px;
-  border: 1px solid black;
-  border-radius: 15px;
-  background-color: yellowgreen;
+  border-radius: 25px;
+  background-color:#152940;
   display: block;
 }
+.reciclar1{
+  width: 115px;
+  height: 115px;
+  background-color:#148253;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 65px;
+  box-shadow: 0 0 5px black;
+}
+.reciclar-esquerda{
+  width: 115px;
+  height: 115px;
+}
+.caixa-centro{
+  float: center;
+  height:400px;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.separar{
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
 .caixa2{
-  width: 200px;
+  width: 250px;
   height: 250px;
-  border: 1px solid black;
-  border-radius: 15px;
-  background-color: orange;
+  border-radius: 25px;
+  background-color:#152940;
   display: block;
+}
+.caminhao1{
+  width: 115px;
+  height: 115px;
+  background-color:#148253;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 65px;
+  box-shadow: 0 0 5px black;
+}
+.caminhao-centro{
+  width: 115px;
+  height: 115px;
+}
+.coletar{
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.caixa-direita{
+  float: right;
+  height:400px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caixa3{
+  width: 250px;
+  height: 250px;
+  border-radius: 25px;
+  background-color:#152940;
+  display: block;
+}
+.lixo1{
+  width: 115px;
+  height: 115px;
+  background-color:#148253;
+  border-radius: 50%;
+  margin-top: -50px;
+  margin-left: 65px;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+.lixo-direita{
+  width: 115px;
+  height: 115px;
+}
+.titulo-reciclar{
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
 }
 .container2{
   background-color: #148253;
