@@ -1,3 +1,17 @@
+<?php
+include_once './conexao.php';
+?>
+
+
+
+<!--PARA FAZER-->
+<?php
+// ADICIONAR VARIAVIES E PEGAR DADOS DO FORMULÁRIO PARA MANIPULAÇÃO DEPOIS
+// 
+?>
+
+
+
 
 
 
@@ -28,7 +42,7 @@
   <header class="header">
         <div class="menu">
             <nav class="nav">
-                <a href="" class="logo"><img src="./img/icons/caminhao_icon.png" alt="" width="280" height="250"></a>
+                <a href="" class="logo"><img src="./img/icons/logo.png" alt="" width="280" height="250"></a>
                 <ul class="nav-list">
                     <li><a href="./inicio.html">Início</a></li>
                     <li><a href="#">Nossa equipe</a></li>
