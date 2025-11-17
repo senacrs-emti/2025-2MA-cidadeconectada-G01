@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: poppins;
     
 }
 .poppins-thin {
@@ -187,7 +188,7 @@ header .box1 .botao:hover{
   float: right;
   margin-top: 60px;
 }
-.reciclar{
+.separar{
   width: 125px;
   height: 125px;
 }
@@ -200,7 +201,7 @@ header .box1 .botao:hover{
   float: right;
   margin-top: -15px;
 }
-.lixo{
+.reciclar{
   width: 125px;
   height: 125px;
 }
@@ -213,7 +214,7 @@ header .box1 .botao:hover{
   float: right;
   margin-top: -15px;
 }
-.caminhao{
+.coletar{
   width: 125px;
   height: 125px;
 }
@@ -327,7 +328,8 @@ a {
   justify-content: center;
   align-items: center;
 }
-.separar{
+.separar-tittle{
+  font-size: 22px;
   height: 40px;
   width: 100%;
   text-align: center;
@@ -353,7 +355,8 @@ a {
   width: 115px;
   height: 115px;
 }
-.coletar{
+.coletar-tittle{
+  font-size: 25px;
   height: 40px;
   width: 100%;
   text-align: center;
@@ -387,28 +390,125 @@ a {
   width: 115px;
   height: 115px;
 }
-.titulo-reciclar{
+.reciclar-tittle{
+  font-size: 25px;
   height: 40px;
   width: 100%;
   text-align: center;
   color: white;
 }
-.container2{
-  background-color: #148253;
-  width: 100%;
-  height: 320px;
-  display: flex;
-    
-}
-.container3{
-  background-color:#EEE5DD;
-  width: 100%;
-  height: 250px;
-  display: flex;
-}
+
 .bola1{
   width: 150px;
   height: 150px;
   border-radius: 50%;
   background-color: white;
+}
+.separar-text{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.coletar-text{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+.reciclar-text{
+  color: white;
+  text-align: center;
+  font-size: 15px;
+
+}
+.container2 {
+  background-color: #148253;
+  width: 100%;
+  height: 365px;
+}
+
+/* mantém tua classe */
+.equipe-tittle {
+  font-size: 45px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* NOVO contêiner apenas para alinhar cards */
+.cards-equipe {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* mantém tua classe */
+.retangulo1 {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+}
+
+/* mantém tua classe */
+.retangulozinho {
+  width: 220px;
+  background-color: #152940;
+  border-radius: 50px;
+  height: 400px;
+  text-align: center;
+  color: white;
+  margin-top: -20px;
+}
+
+/* foto redonda */
+.foto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.nome {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.bio {
+  font-size: 13px;
+  margin: 10px 0 15px;
+}
+
+.github {
+  width: 32px;
+}
+.container3{
+  background-color:#EEE5DD;
+  width: 100%;
+  height: 250px;
+  display: block;
+  float: left;
+}
+
+footer{
+  background-color:#152940;
+  width: 100%;
+  padding:1rem;
+}
+.central-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 1rem;
+}
+hr{
+  width: 30%;
+}
+
+.ecoleta-footer{
+  color:  #148253;
 }
