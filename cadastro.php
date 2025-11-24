@@ -1,34 +1,3 @@
-<?php
-include_once './conexao.php';
-?>
-
-
-
-<!--PARA FAZER-->
-<?php
-// ADICIONAR VARIAVIES E PEGAR DADOS DO FORMULÁRIO PARA MANIPULAÇÃO DEPOIS
-// 
-?>
-
-
-
-
-
-
-
-
-
-
-<!---USAR O ARQUIVO CADASTRO.PHP A PARTIR DE AGORA-->
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -48,8 +17,8 @@ include_once './conexao.php';
                     <li><a href="#">Nossa equipe</a></li>
                     <li><a href="#">O projeto</a></li>
                     <li><a href="#">Contato</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="./cadastro.html">Cadastre-se</a></li>
+                    <li><a href="./login.php">Login</a></li>
+                    <li><a href="./cadastro.php">Cadastre-se</a></li>
                 </ul>
             </nav>
         </div>
@@ -58,7 +27,7 @@ include_once './conexao.php';
   <main class="main">
     <div class="overlay"></div>
     <div class="form-container">
-      <form class="form-cadastro">
+      <form class="form-cadastro" action="./act/cadastro.php" method="POST">
         <h2>Cadastre-se</h2>
         <p>Preencha os dados solicitados abaixo para ter acesso a uma conta no nosso site</p>
 
