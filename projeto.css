@@ -299,15 +299,11 @@ html {
   margin-top: -15px;
   margin-left: 90px;
   box-shadow: 0 0 5px black;
-  background-image: ./img/icons/icon_separar.png;
+  background-image: url("./img/icons/icon_separar.png");
+  background-size: cover;
+  background-position: center;
 }
-.separar{
-  width: 80px;   /* ajuste o tamanho como quiser */
-  height: 80px;
-  border-radius: 50%; /* se quiser deixar a imagem redonda */
-  margin: 0; /* remove margens que causavam o problema */
- 
-}
+
 .circle2{
   width: 135px;
   height: 135px;
