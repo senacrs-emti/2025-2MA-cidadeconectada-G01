@@ -328,8 +328,51 @@ html {
   height: 2px;
   width: 50px;
   position: absolute;
-  margin-top: 68px;
+  margin-top: 50px;
   margin-left: 250px;
+  font-size: larger;
+  color: #148253;
+}
+.texto1{
+  position: absolute;
+  font-size: small;
+  font-weight: bold;
+  height: 330px;
+  width: 330px;
+  margin-top: 150px;  
+  margin-left: 80px;
+  }
+.numero2{
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 750px;
+  font-size: larger;
+  color: #148253;
+}
+.texto2{
+  position: absolute;
+  font-size: small;
+  font-weight: bold;
+  height: 350px;
+  width: 350px;
+  margin-left: 750px;
+  margin-top: -70px;
+}
+.numero3{
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 76%;
+  font-size: larger;
+  color: #148253;
+}
+.texto3{
+  position: absolute;
+  font-size: small;
+  font-weight: bold;
+  height: 330px;
+  width: 330px;
+  margin-top: -70px;
+  margin-left: 60%;
 }
 
 .circle2{
