@@ -249,12 +249,12 @@ html {
 .titulo {
     position: absolute;
     top: 20%;
-    left: 38%;
+    left: 31%;
     transform: translateY(-50%);
     color: white;
     font-size: 40px;
     font-weight: Inter;
-    width: 57%;
+    width: 40%;
     line-height: 1.2;
 }
 .descricao {
@@ -277,6 +277,25 @@ html {
     display: block;
     background-color: white;
 }
+.passoapasso{
+  margin-top: 60px;
+  margin-left: 100px;
+  
+}
+.exemplo{
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 15px;
+  background-color: #A3D900; 
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 999px; 
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+
+}
 .poa{
     width: 100%;
     height: 650px;
@@ -287,21 +306,30 @@ html {
 }
 .linha{
   margin-left: 200px;
-  margin-top: 150px;
+  margin-top: 48px;
   width: 70%;
   height:40%;
+  display: block;
 }
 .circle1{
   width: 135px;
   height: 135px;
   background-color:#148253;
   border-radius: 50%;
-  margin-top: -15px;
-  margin-left: 90px;
+  margin-top: -10px;
+  margin-left: 98px;
   box-shadow: 0 0 5px black;
   background-image: url("./img/icons/icon_separar.png");
   background-size: cover;
   background-position: center;
+  display: block;
+}
+.numero1{
+  height: 2px;
+  width: 50px;
+  position: absolute;
+  margin-top: 68px;
+  margin-left: 250px;
 }
 
 .circle2{
@@ -310,8 +338,12 @@ html {
   background-color:#148253;
   border-radius: 50%;
   margin-top: -570px;
-  margin-left: 1063px;
+  margin-left: 1237px;
   box-shadow: 0 0 5px black;
+  background-image: url("./img/icons/icon_coletar.png");
+  background-size: cover;
+  background-position: center;
+  display: block;
 }
 .circle3{
   width: 135px;
@@ -319,6 +351,10 @@ html {
   background-color:#148253;
   border-radius: 50%;
   margin-top: 201px;
-  margin-left: 741px;
+  margin-left: 830px;
   box-shadow: 0 0 5px black;
+  background-image: url("./img/icons/icon_reciclar.png");
+  background-size: cover;
+  background-position: center;
+  display: block;
 }
